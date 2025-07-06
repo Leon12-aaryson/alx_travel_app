@@ -48,7 +48,7 @@ urlpatterns = [
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     
     # API endpoints
-    path('api/v1/', include('alx_travel_app.listings.urls')),
+    path('api/v1/', include('listings.urls')),
     
     # Authentication URLs (for browsable API)
     path('api-auth/', include('rest_framework.urls')),
