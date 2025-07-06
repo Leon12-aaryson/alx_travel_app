@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'django_filters',
     
     # Local apps
-    'listings.apps.ListingsConfig',
+    'alx_travel_app.listings.apps.ListingsConfig',
 ]
 
 MIDDLEWARE = [
